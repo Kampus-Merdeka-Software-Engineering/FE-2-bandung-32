@@ -11,11 +11,3 @@ menu.onclick = () => {
   menu.classList.toggle('bx-x');
   navmenu.classList.toggle('open');
 }
-
-// DOM Manipulation
-const section = document.getElementById('trending');
-
-window.addEventListener('scroll', function () {
-  const scrollPosition = window.scrollY;
-
-});
