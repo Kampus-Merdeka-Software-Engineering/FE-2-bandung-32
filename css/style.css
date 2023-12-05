@@ -49,6 +49,7 @@ header.sticky {
 .navmenu a:hover {
     color: #EE1C47;
     border: 1px transparent;
+    font-weight: 600;
     padding: 10px 10px;
     border-radius: 10px;
     background-color: #decbcb;
@@ -77,6 +78,7 @@ header.sticky {
     color: #2c2c2c;
     z-index: 10001;
     cursor: pointer;
+    display: none;
 }
 
 /*------SECTION MAIN HOME------*/
@@ -378,62 +380,65 @@ section {
     text-transform: capitalize;
 }
 
-/* Responsive-css */
+/* Media Queries */
 
-@media(max-width:890px) {
-    header {
-        padding: 20px 3%;
-        transition: .4s;
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+      font-size: 75%;
     }
-}
-
-@media(max-width:630px) {
-    .main-text h1 {
-        font-size: 50px;
-        transition: .4s;
+  }
+  
+  /* Tablet */
+  @media (max-width: 768px) {
+    html {
+      font-size: 62.5%;
     }
-
-    .main-text p {
-        font-size: 18px;
-        transition: .4s;
+    #menu-icon {
+      display: inline-block;
     }
-
-    .main-btn {
-        padding: 10px 20px;
-        transition: .4s;
-    }
-}
-
-@media(max-width:750px) {
     .navmenu {
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        width: 230px;
-        height: 70vh;
-        background-color: #efefef;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 2px 2px;
-        transition: all .42s;
+      position: absolute;
+      top: 100%;
+      right: -100%;
+      background-color: #e5e5e5;
+      width: 25rem;
+      height: 100vh;
+      transition: 0.3s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2px 2px;
     }
-
+  
+    .navmenu.active {
+      right: 0;
+    }
+  
     .navmenu a {
-        display: block;
-        margin: 18px 0;
+      color: #212121;
+      display: block;
+      margin: 1.5rem;
+      padding: 0.5rem;
+      font-size: 1.3rem;
     }
-
-    .navmenu.open {
-        right: 0;
+  
+    /* /* .navbar .navbar-nav a::after {
+      transform-origin: left; */
+    /* }
+  
+    .navbar .navbar-nav a:hover::after {
+      transform: scaleX(0.2);
     }
-
-    .main-home {
-        background-image: url(../image/Banner2.png);
-        background-color: #efefef;
-    }
-
-    .btn-co {
-        width: 55%;
-    }
+   */
+    /* .navbar .navbar-nav a:hover {
+      font-weight: 500;
+    } */
 }
+   
+  /* Mobile Phone */
+  @media (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+  }
