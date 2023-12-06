@@ -17,7 +17,7 @@ const productData = [{
     itemSrc: "./image/Contact3.png",
     title: "M. David Ferdian H.",
     date: "Front End",
-    sub: "arifmaritza@gmail.com",
+    sub: "dferdian11@gmail.com",
   },
   {
     id: "product4",
