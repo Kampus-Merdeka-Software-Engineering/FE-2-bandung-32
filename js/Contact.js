@@ -1,8 +1,8 @@
 const productData = [{
     id: "product1",
     itemSrc: "./image/Contact1.png",
-    title: "M. Arif Maritza",
-    date: "Front End",
+    title: "Rizqi Ananda",
+    date: "Project Leader",
     sub: "arifmaritza@gmail.com",
   },
   {
@@ -15,29 +15,29 @@ const productData = [{
   {
     id: "product3",
     itemSrc: "./image/Contact3.png",
-    title: "M. Arif Maritza",
+    title: "M. David Ferdian H.",
     date: "Front End",
     sub: "arifmaritza@gmail.com",
   },
   {
     id: "product4",
     itemSrc: "./image/Contact4.png",
-    title: "M. Arif Maritza",
-    date: "Front End",
+    title: "Intan Pratiwi",
+    date: "Back End",
     sub: "arifmaritza@gmail.com",
   },
   {
     id: "product5",
     itemSrc: "./image/Contact5.png",
-    title: "M. Arif Maritza",
-    date: "Front End",
+    title: "Shanice Elsri Talau",
+    date: "Back End",
     sub: "arifmaritza@gmail.com",
   },
   {
     id: "product6",
     itemSrc: "./image/Contact6.png",
-    title: "M. Arif Maritza",
-    date: "Front End",
+    title: "Zanubah Reny",
+    date: "Quality Assurance",
     sub: "arifmaritza@gmail.com",
   },
 ];
