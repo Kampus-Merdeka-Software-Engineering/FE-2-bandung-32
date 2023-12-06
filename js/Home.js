@@ -21,6 +21,7 @@ document.querySelector("#menu-icon").onclick = () => {
 // supaya bisa ditutup menunya kalo diklik diluar sidebar
 document.addEventListener("click", function (e) {
   if(!menu.contains(e.target) && !navmenu.contains(e.target)) {
-    navmenu.classList.remove("active") 
+    navmenu.classList.remove("active"); 
+    menu.classList.remove("bx-x");
   }
 })
