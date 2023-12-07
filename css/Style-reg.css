@@ -8,7 +8,7 @@
 }
 
 body {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -18,9 +18,13 @@ body {
 }
 
 .material-symbols-rounded {
-    display:inline-block;
+    display:flex;
+    margin-top: 0;
+    margin-bottom: 23.2rem;
+    margin-right: 1rem;
     color: black;
     border-radius: 50%;
+    text-decoration: none;
 }
 
 .material-symbols-rounded:hover {
