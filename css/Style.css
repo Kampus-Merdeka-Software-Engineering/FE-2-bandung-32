@@ -358,15 +358,24 @@ section {
     color: blue;
 }
 
-.social-icon {
+.second-info a:hover{
+    padding-left: 8px;
+}
+
+.third-info a:hover{
+    padding-left: 8px;
+}
+
+.social-icon i{
     color: #565656;
-    margin-right: 20px;
-    font-size: 20px;
-    transition: all .42s;
+    margin-right: 8px;
+    font-size: 15px;
 }
 
 .social-icon i:hover {
-    transform: scale(1.3);
+    scale: 1.5;
+    transition: 0.5s;
+    color: blue;
 }
 
 .end-text {
