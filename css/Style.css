@@ -358,6 +358,10 @@ section {
     color: blue;
 }
 
+.first-info span p{
+    text-transform: lowercase;
+}
+
 .second-info a:hover{
     padding-left: 8px;
 }
@@ -388,6 +392,7 @@ section {
     color: #111;
     text-transform: capitalize;
 }
+
 
 /* Media Queries */
 
