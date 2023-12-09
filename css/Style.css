@@ -109,7 +109,7 @@ section {
 }
 
 .main-text h1 {
-    color: #000;
+    color: #151515;
     text-shadow: 2px 2px #efefef;
     font-size: 55px;
     text-transform: capitalize;
@@ -127,7 +127,7 @@ section {
 
 .main-btn {
     display: inline block;
-    color: #111;
+    color: #151515;
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
@@ -137,7 +137,7 @@ section {
 }
 
 .main-btn:hover {
-    background-color: #000;
+    background-color: #212529;
     color: #fff;
 }
 
