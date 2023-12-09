@@ -353,20 +353,21 @@ section {
 .team-content img{
     width: 100%;
     height: auto;
-    border-radius: 15px;
+    border: #6ea6f4 solid 5px;
+    border-radius: 100%;
     margin-bottom: 15px;
 }
 
 .center h1{
-    color: rgb(241, 79, 79);
+    color: rgb(233, 63, 63);
     font-size: 4rem;
     text-align: center;
     text-shadow: 0 0 4px #336;
 }
 
 .box {
-    padding: 32px;
-    background-color: rgb(65, 128, 236);
+    padding: 40px;
+    background-color:#196ddb;
     border-radius: 15px;
     box-shadow:0 0 7px #336;
     transition: all 0.5s ease;
@@ -381,22 +382,22 @@ section {
 .box h5{
     font-size: 12px;
     font-weight: 600;
-    color: #f3f4f6ec;
+    color: #6ea6f4;
     margin-bottom: 5px;
 }
 
 .social-links i{
 display: inline-block;
 color: #212529;
-font-size: 17px;
-margin: 0 10px;
-margin-top: 11px;
+font-size: 23px;
+margin: 0 13px;
+margin-top: 20px;
 transition: all 0.5s ease;
 }
 
 .social-links i:hover{
     transform: scale(1.5);
-    color: #f3f4f6;
+    color: #6ea6f4;
 }
 
 .box:hover{
