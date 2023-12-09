@@ -356,7 +356,7 @@ section {
 }
 
 .center h1{
-    color: blue;
+    color: rgb(241, 79, 79);
     font-size: 4rem;
     text-align: center;
     text-shadow: 0 0 4px #336;
@@ -364,7 +364,7 @@ section {
 
 .box {
     padding: 16px;
-    background-color: red;
+    background-color: rgb(65, 128, 236);
     border-radius: 15px;
     box-shadow:0 0 7px #336;
     transition: all 0.5s ease;
