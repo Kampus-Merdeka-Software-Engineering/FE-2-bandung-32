@@ -51,6 +51,7 @@ header.sticky {
     border: 1px transparent;
     padding: 10px 10px;
     border-radius: 10px;
+    font-weight: 600;
     background-color: #decbcb;
 }
 
@@ -68,8 +69,9 @@ header.sticky {
 }
 
 .nav-icon i:hover {
-    transform: scale(1.1);
     color: #EE1C47;
+    scale: 1.1;
+    transition: 0.5s;
 }
 
 #menu-icon {
@@ -97,6 +99,19 @@ section {
     align-items: center;
 }
 
+.main-home2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/Banner2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+
 /*--Main Text--*/
 .main-text h5 {
     color: #EE1C47;
@@ -107,13 +122,19 @@ section {
 }
 
 .main-text h1 {
-    color: #000;
+    color: #151515;
     text-shadow: 2px 2px #efefef;
     font-size: 55px;
     text-transform: capitalize;
     line-height: 1.1;
     font-weight: 600;
     margin: 6px 0 10px;
+}
+
+.main-text h2 {
+    color: #efefef;
+    font-size: 20px;
+    text-align: center;
 }
 
 .main-text p {
@@ -125,7 +146,7 @@ section {
 
 .main-btn {
     display: inline block;
-    color: #111;
+    color: #151515;
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
@@ -135,7 +156,7 @@ section {
 }
 
 .main-btn:hover {
-    background-color: #000;
+    background-color: #212529;
     color: #fff;
 }
 
@@ -265,6 +286,12 @@ section {
 
 }
 
+.news{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .news img {
     width: 300px;
     height: auto;
@@ -296,12 +323,105 @@ section {
     max-width: 380px;
     line-height: 25px;
     margin-bottom: 12px;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .news h6 {
     color: #151515;
     font-size: 14px;
     font-weight: 500;
+}
+
+/* product style */
+.trending-product{
+    justify-items: center;
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    display:flex;
+    flex-direction: column;
+}
+
+/* Team Profile Section */
+
+.team {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.team-content{
+    width: 100%;
+    max-width: 1350px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    text-align: center;
+    margin-top: 4rem;
+    margin-right:  10%;
+    margin-left: 10%;
+}
+
+.team-content img{
+    width: 100%;
+    height: auto;
+    border: #b7ccea solid 5px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.center h1{
+    color: rgb(233, 63, 63);
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 0 0 4px #336;
+}
+
+.box {
+    padding: 40px;
+    background-color:#196ddb;
+    border-radius: 15px;
+    box-shadow:0 0 7px #336;
+    transition: all 0.5s ease;
+}
+
+.box h3{
+    font-size: 18px; 
+    color: #212529;
+    margin-bottom: 5px;
+}
+
+.box h5{
+    font-size: 12px;
+    font-weight: 600;
+    color: #b7ccea;
+    margin-bottom: 5px;
+}
+
+.social-links i{
+display: inline-block;
+color: #212529;
+font-size: 23px;
+margin: 0 13px;
+margin-top: 20px;
+transition: all 0.5s ease;
+}
+
+.social-links i:hover{
+    transform: scale(1.5);
+    color: #b7ccea;
+}
+
+.box:hover{
+    transform: translateY(-25px);
+
 }
 
 /* contact-section */
@@ -355,21 +475,35 @@ section {
 
 .contact-info a:hover {
     color: blue;
+    font-weight: 600;
 }
 
-.social-icon {
+.first-info span p{
+    text-transform: lowercase;
+}
+
+.second-info a:hover{
+    padding-left: 8px;
+}
+
+.third-info a:hover{
+    padding-left: 8px;
+}
+
+.social-icon i{
     color: #565656;
-    margin-right: 20px;
-    font-size: 20px;
-    transition: all .42s;
+    margin-right: 8px;
+    font-size: 15px;
 }
 
 .social-icon i:hover {
-    transform: scale(1.3);
+    scale: 1.5;
+    transition: 0.5s;
+    color: blue;
 }
 
 .end-text {
-    background-color: #edfff1;
+    background-color: #e1e1e1;
     text-align: center;
     padding: 20px;
 }
@@ -378,6 +512,7 @@ section {
     color: #111;
     text-transform: capitalize;
 }
+
 
 /* Media Queries */
 
@@ -396,6 +531,13 @@ section {
     #menu-icon {
       display: inline-block;
     }
+
+    #menu-icon:hover{
+        color: #EE1C47;
+        scale: 1.1;
+        transition: 0.5s;
+    }
+
     .navmenu {
       position: absolute;
       top: 100%;
@@ -427,5 +569,10 @@ section {
   @media (max-width: 450px) {
     html {
       font-size: 50%;
+    }
+    .team{
+        width: 100%;
+        height: auto;
+        padding: 90px 2%;
     }
   }
