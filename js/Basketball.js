@@ -1,37 +1,37 @@
 const productData = [{
     id: "product1",
-    itemSrc: "./image/Soccer1.png",
-    title: "Indonesia failed to qualify for the last 16 of the U-17 World Cup after Morocco won 4-0 against New Zealand.",
-    date: "18 November 2023 (via voi.id)",
-    sub: "The Indonesian national team certainly failed to qualify for the last 16 of the U-17 World Cup after Mexico had four goals against New Zealand in the Group F match of the U-17 World Cup, which was played at Si Jalak Harupat Stadium, Bandung, Saturday. The result also boosted Mexico to second place in Group F's final standings, with a collection of four points. The collection of points is the same as Venezuela's, but Mexico is ahead on goal difference. Meanwhile, New Zealand ended its journey at the U-17 World Cup this year with zero points, and recorded one goal and conceded nine goals. The 4-0 victory of the team nicknamed El Tri also ensured Mexico qualified for the last 16 as the second-placed team, while Venezuela advanced to the knockout phase with the status of the fourth-placed third-placed team, shifting Indonesia."
+    itemSrc: "./image/Basketball1.png",
+    title: "NBA: Kevin Durant moves into all-time scoring top 10.",
+    date: "2 December 2023 (via bbc.com)",
+    sub: "Kevin Durant moved to 10th on the NBA all-time scoring list but his Phoenix Suns were beaten by the Denver Nuggets.  The 35-year-old went into the game needing 17 points to move past Moses Malone and scored 30 to give him a career total of 27,423 points."
   },
   {
     id: "product2",
-    itemSrc: "./image/Soccer2.png",
-    title: "No penalty, no problem! Cristiano Ronaldo in good spirits despite drawing a blank in Al-Nassr's AFC Champions League clash with Persepolis.",
-    date: "28 November 2023 (via goal.com)",
-    sub: "Ronaldo's team played out a goalless draw on home soil despite being awarded a penalty early on when the Portugal star was brought down in the box. The 38-year-old told the referee that he was not fouled, however, and the decision was reversed after a VAR review. The draw was enough to ensure Al-Nassr progress to the knockout round of the AFC Champions League. They will finish top of the group, with Persepolis sitting five points behind them with just one match left to play in the first round of the competition. Ronaldo and his Al-Nassr team-mates will hope to continue their unbeaten run when they return to Saudi Pro League action with a game against Al-Hilal on Friday. Al-Hilal sit top of the table and four points ahead of Al-Nassr."
+    itemSrc: "./image/Basketball2.png",
+    title: "LeBron James' son, Bronny, cleared for basketball return after cardiac arrest.",
+    date: "30 November 2023 (via bbc.com)",
+    sub: "Bronny James, the son of basketball great LeBron James, has been cleared to return to basketball four months after suffering cardiac arrest.  The 19-year-old was training with his University of Southern California (USC) team when the incident happened."
   },
   {
     id: "product3",
-    itemSrc: "./image/Soccer3.png",
-    date: "27 November 2023 (via espn.com)",
-    title: "Man United plot surprise move for Timo Werner.",
-    sub: "Werner, 27, has been linked with a loan move to a variety of interested clubs in January, including Real Madrid, but Plettenberg believes the German will prefer to see out the season at RB Leipzig before making a permanent move. Werner is said to be disgruntled with the way things are going in Saxony despite only having rejoined Leipzig from Chelsea in 2022, while Man United are keen to strengthen their firepower in attack. United have reportedly enquired about Werner's availability, but no offer has been made and there have been no negotiations at this stage. Reds boss Erik Ten Hag will now monitor Werner's situation over the next couple of weeks before the transfer window opens. If Werner were to move to Old Trafford in January, he would join the likes of Odion Ighalo and Wout Weghorst on a growing list of stop-gap striking options that the once dominant Premier League side have turned to in recent history. Werner has only scored twice this campaign, but he managed to register 16 goals last season back in the Bundesliga."
+    itemSrc: "./image/Basketball3.png",
+    date: "29 November 2023 (via bbc.com)",
+    title: "NBA In-Season Tournament: Giannis Antetokounmpo helps Milwaukee Bucks reach last eight.",
+    sub: "Giannis Antetokounmpo scored 33 points as the Milwaukee Bucks beat the Miami Heat 131-124 to reach the knockout rounds of the inaugural NBA In-Season Tournament with a perfect record.  Damian Lillard added 32 for the Bucks, who advanced to the last eight as the top seeds in the Eastern Conference."
   },
   {
     id: "product4",
-    itemSrc: "./image/Soccer4.png",
-    title: "Man United's Garnacho scores overhead stunner in 3-0 win at Everton.",
-    date: "27 November 2023 (via espn.com)",
-    sub: "Manchester United's Alejandro Garnacho scored with a magical overhead kick in the third minute to send the visitors on their way to a 3-0 win on Sunday over an Everton team already reeling in their first Premier League game after being docked 10 points. The 19-year-old Argentine leapt acrobatically to meet Diogo Dalot's cross, firing the ball into the opposite corner past stranded goalkeeper Jordan Pickford before celebrating with a Cristiano Ronaldo-style pirouette at Goodison Park. A Marcus Rashford penalty and clever Anthony Martial finish wrapped up the victory in the second half Garnacho's stunning strike drew comparisons to Wayne Rooney's famous goal for United in the 2011 Manchester derby. Erik ten Hag's United team are now sixth in the standings on 24 points after 13 games, while Sean Dyche's Everton side, who were 14th before their points deduction for breaches of the league's financial rules, are second-bottom on four points."
+    itemSrc: "./image/Basketball4.png",
+    title: "NBA: LeBron James sets league record for minutes played in Lakers defeat by Philadelphia 76ers.",
+    date: "28 November 2023 (via bbc.com)",
+    sub: "LeBron James set the record for most minutes played in the NBA on the same night he suffered the heaviest defeat of his career.  James, 38, scored 18 points in the LA Lakers' 138-94 defeat by the Philadelphia 76ers on Monday."
   },
   {
     id: "product5",
-    itemSrc: "./image/Soccer5.png",
-    title: "Unstoppable Erling Haaland has another record.",
-    date: "25 November 2023 (via goal.com)",
-    sub: "The Norwegian put the Blues in command, but his strike partner fluffed a golden chance to end the game as a contest and the Merseysiders capitalised Erling Haaland had trained with ‘niggles’ just two days before Manchester City's crunch game with Liverpool, but once the first whistle went, he looked as physically sharp and hungry as ever and smashed his side into the lead, becoming the fastest player in Premier League history to reach 50 goals. City looked on top for most of the game, but Julian Alvarez spurned a glorious chance crafted by the electric Jeremy Doku and Liverpool grabbed an equaliser from out of nowhere via Trent Alexander-Arnold with just over 10 minutes left to play. City went looking for the winner deep into added-time, but couldn't find it and their long winning streak at home finally came to end on 23 victories. Pep Guardiola's side are still top of the Premier League, but they were reminded once more of Liverpool's capacity to keep them in check like no other side has been able to do in the last seven years."
+    itemSrc: "./image/Basketball5.png",
+    title: "Plymouth City Patriots: Outgoing chairman says BBL club needs more support.",
+    date: "25 November 2023 (via bbc.com)",
+    sub: "The BBL took over in 2021 when Plymouth Raiders withdrew over venue issues. They were eighth and ninth respectively in the past two seasons in the 10-team league and are bottom this season. 'There needs to be some support from the city to make sure this happens, because it would be a tragedy if this was lost,' Heslop told BBC Spotlight. Heslop has been at the helm since the club was resurrected by the BBL on a voluntary basis, and says an increase in workload at his other businesses means he can no longer dedicate enough time to the Patriots. The club still plays its matches at Plymouth Pavilions - more than 12 months after the end of an agreement with the venue over hosting fees that led to the Raiders' demise."
   }
 ];
 
