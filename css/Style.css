@@ -609,6 +609,7 @@ transition: all 0.5s ease;
 .heading h1{
     font-size: 50px;
     color: #EE1C47;
+    text-shadow: 0 0 4px #336;
     margin-bottom: 25px;
     position: relative;
     margin-top: 7rem;
@@ -787,7 +788,12 @@ color: #EE1C47;
     }
 
     .title-contactUs{
-        padding-top: 7rem;
+        padding-top: 10rem;
+        transition: 0.4s;
+    }
+
+    .title-contactUs:hover{
+        transform: scale(1.1);
     }
 
     .box-contactUs{
